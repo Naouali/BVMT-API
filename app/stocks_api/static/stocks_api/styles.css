@@ -28,6 +28,12 @@ body {
     display: inline-block;
     padding-left: 30px;
 }
-p {
-    color:blue;
+
+.box1 {
+    margin: 0 0 50%;
+    padding-top: 0;
+    height: 500px;
+    width: 50%;
+    background-image: url('screendata.png');
+    background-size: contain;
 }
