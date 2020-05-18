@@ -10,3 +10,7 @@ def home(request):
 def about(request):
     """ view for about page"""
     return HttpResponse("hello about page")
+
+def getapi(request):
+    """view to registring page"""
+    return HttpResponse("get your api")
