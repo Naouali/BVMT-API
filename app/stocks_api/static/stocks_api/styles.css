@@ -37,10 +37,10 @@ body {
     background-size: contain;
 }
 .container0 {
-    height: 500px;
-    margin: auto;
+    width: 100%;
+    height: 1000px;
     background-image: url('screendata.png');
-    background-size: initial;
+    object-fit: contain;
     background-repeat: no-repeat;
 }
 .q {
