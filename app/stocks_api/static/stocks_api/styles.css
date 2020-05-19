@@ -5,7 +5,7 @@ body {
 }
 .nav_bar {
     height: 60px;
-    background-color:#24252A;
+    background-color:red;
     border: 1px black solid;
     margin-top: 0;
     display: flex;
@@ -29,11 +29,13 @@ body {
     padding-left: 30px;
 }
 
+.container1 {
+    display:flex;
+}
 .box1 {
-    margin: 0 0 50%;
-    padding-top: 0;
-    height: 500px;
-    width: 50%;
     background-image: url('screendata.png');
-    background-size: contain;
+    
+}
+.box2 {
+    color:red;
 }
