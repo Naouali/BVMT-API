@@ -61,6 +61,7 @@ body {
 .container1 {
     display:flex;
     height: 500px;
+    width: 100%;
 }
 .box1 {
     background-image: url('screendata.png');
@@ -71,4 +72,10 @@ body {
 .box2 {
     color:red;
     flex:1;
+}
+footer {
+    height: 60px;
+    border-top: solid black 1px;
+    text-align: center;
+    bottom: 0px;
 }
