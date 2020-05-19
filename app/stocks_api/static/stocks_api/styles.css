@@ -1,5 +1,4 @@
 body {
-    background-color:white;
     margin:0;
     padding:0;
 }
@@ -43,13 +42,14 @@ body {
     background-size: contain;
     background-position-x: center;
     background-repeat: no-repeat;
+    background-color: black;
 }
 .q {
     height: 150px;
     width: auto;
-    background-color:white;
+    background-color:#3B3B3F;
     border-top:black solid 1px;
-    border-bottom:black solid 1px;
+    border-bottom: black solid 1px;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
@@ -65,7 +65,6 @@ body {
     width: 100%;
 }
 .box1 {
-    background-image: url('screendata.png');
     background-size: contain;
     flex:1;
     
@@ -77,6 +76,8 @@ body {
 footer {
     height: 60px;
     border-top: solid black 1px;
+    background-color: black;
     text-align: center;
     bottom: 0px;
+    color: white;
 }
