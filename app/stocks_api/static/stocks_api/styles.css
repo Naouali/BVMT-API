@@ -5,7 +5,7 @@ body {
 .nav_bar {
     height: 60px;
     width: 100%;
-    background-color:black;
+    background-color: #242431;
     border: 1px black solid;
     margin-top: 0;
     display: flex;
@@ -47,7 +47,7 @@ body {
 .q {
     height: 150px;
     width: auto;
-    background-color:#3B3B3F;
+    background-color:white;
     border-top:black solid 1px;
     border-bottom: black solid 1px;
     margin-left: 10%;
@@ -65,14 +65,28 @@ body {
     width: 100%;
 }
 .box1 {
+    margin-top: 10px;
+    background-image: url('inv.svg');
     background-size: contain;
+    background-repeat: no-repeat;
     flex:1;
     
 }
 .box2 {
-    color:red;
+    color:black;
     flex:1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+    word-spacing: 10px;
+    line-height: 50px;
 }
+
+
 footer {
     height: 60px;
     border-top: solid black 1px;
