@@ -7,3 +7,17 @@ class Companies(models.Model):
 
     def __str__(self):
         return self.name
+class Data(models.Model):
+    id = models.ForeignKey(Companies)
+    date = models.DateField()
+    price = models.IntegerField(null=False)
+    opening_price = models.IntegerField(null=False)
+    low = models.IntegerField(null=False)
+    high = models.IntegerField(null=False)
+    volume = models.IntegerField(null=False)
+    variation = models.IntegerField()
+
+
+    def __str__(self):
+        return 
+
