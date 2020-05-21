@@ -19,4 +19,5 @@ def getapi(request):
 
 @api_view (['GET'])
 def api(request):
-    return Response({'hello': 'api'})
+    return Response([{'hello':9 }, {'bye':7}, {'now': 100 }])
+
