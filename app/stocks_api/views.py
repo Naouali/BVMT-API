@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 
 def home(request):
     """
@@ -14,3 +14,6 @@ def about(request):
 def getapi(request):
     """view to registring page"""
     return HttpResponse("get your api")
+
+def api(request):
+    return JsonResponse({'hello': 'api'})
