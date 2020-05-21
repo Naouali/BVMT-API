@@ -18,6 +18,11 @@ def getapi(request):
     return HttpResponse("get your api")
 
 @api_view (['GET'])
-def api(request):
-    return Response([{'hello':9 }, {'bye':7}, {'now': 100 }])
+def api(request, ticker):
+    mylist=[]
+    with open('stocks_api/csvis/'+ ticker + '.csv', 'r') as f:
+        for line in f:
+            mylist.append(line)
+
+        return Response(mylist)
 
